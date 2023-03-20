@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+    display: flex;
+}
+
+aside {
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(235, 238, 241);
+}
+
+.img1 {
+    margin: 20px 0 0 20px;
+}
+
+.icons {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+
+a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.a1 {
+    margin: 20px 0 0 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.border {
+    border: 1px solid rgb(213, 213, 213);
+    width: 200px;
+    margin: 10px 0 0 10px;
+}
+
+.icons1 {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    margin-top: 50vh;
+}
+
+aside a:hover {
+    color: rgb(0, 203, 0);
+}
+.main1 {
+    display: flex;
+}
+.p1 {
+    margin: 25px 0 0 50px;
+}
+.p2 {
+    margin: 40px 0 0 850px;
+}
+.main2 {
+    display: flex;
+}
+.b {
+    width: 180px;
+    height: 245px;
+    margin: 40px 0 0 50px;
+    background-color: rgb(240, 240, 240);
+}
+.main-img {
+   margin: 12px 0 0 12px;
+}
+.main-p {
+    margin: 5px 0 0 12px;
+}
+
+
+
+
+
+@media oll and (min-width: 391px) {
+    .main-div {
+        display: flex;
+    }
+    
+    aside {
+        width: 250px;
+        height: 100vh;
+        background-color: red;
+        /* background-color: rgb(235, 238, 241); */
+    }
+    
+    .img1 {
+        margin: 20px 0 0 20px;
+    }
+    
+    .icons {
+        display: flex;
+        margin: 10px;
+        padding: 5px;
+    }
+    
+    a {
+        margin-left: 15px;
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .a1 {
+        margin: 20px 0 0 20px;
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .border {
+        border: 1px solid rgb(213, 213, 213);
+        width: 200px;
+        margin: 10px 0 0 10px;
+    }
+    
+    .icons1 {
+        display: flex;
+        margin: 10px;
+        padding: 5px;
+        margin-top: 50vh;
+    }
+    
+    aside a:hover {
+        color: rgb(0, 203, 0);
+    }
+    .main1 {
+        display: flex;
+    }
+    .p1 {
+        margin: 25px 0 0 50px;
+    }
+    .p2 {
+        margin: 40px 0 0 850px;
+    }
+    .main2 {
+        display: flex;
+    }
+    .b {
+        width: 180px;
+        height: 245px;
+        margin: 40px 0 0 50px;
+        background-color: rgb(240, 240, 240);
+    }
+    .main-img {
+       margin: 12px 0 0 12px;
+    }
+    .main-p {
+        margin: 5px 0 0 12px;
+    }
+}
